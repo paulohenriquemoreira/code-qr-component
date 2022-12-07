@@ -9,29 +9,37 @@
 body{
     background-color: var(--cinza-azulado-claro);
     font-family: var(--fonte-principal);
-    margin-top: 10vw;
+    padding: 3rem 0;
     
+
+    
+    
+}
+.container-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     
 }
 
 .container{
-    width: 375px;
+    width: 290px;
     background-color: var(--branco);
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    margin: 50px auto;
     border-radius: 20px;
 }
 
 .qr-code{
-    max-width: 370px;
+    max-width: 290px;
     text-align: center;
 }
 
 .imagem-qr-code{
-    width: 370px;
+    width: 290px;
     border-radius: 15px;
     margin: auto;
 }
@@ -39,42 +47,53 @@ body{
 h1{
     color: var(--azul-escuro);
     font-weight: 700;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     padding: 0 20px;
+    margin: 0;
 }
 
 p{
     color: var(--cinza-azulado);
     font-weight: 400;
-    font-size: 18px;
-    padding: 0 40px;
+    font-size: 1rem;
+    padding: 0 20px;
 }
 
 @media screen and (min-width: 1440px){
-    .container{
+    body{        
         width: 1440px;
-        margin: 10rem;
+        padding: 3rem 10rem;
+    
+        
+        
+    }
+    .container{
+        width: 400px;
     }
 
     .qr-code{
-        max-width: 1440px;
+        max-width: 400px;
         text-align: center;
     }
     
     .imagem-qr-code{
-        width: 1440px;
+        width: 400px;
         
     }    
 
     h1{
         
-        font-size: 7rem;
+        font-size: 2rem;
+        padding: 1rem;
+        margin: 0;
         
     }
     
     p{
         
-        font-size: 5rem;
+        font-size: 1.5rem;
+        padding: 1rem;
+        margin: 0;
         
     }
 }
