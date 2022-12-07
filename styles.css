@@ -58,23 +58,15 @@ p{
     body{        
         width: 1440px;
     }
-    .container{
-        width: 400px;
-    }
-
-    .qr-code{
-        max-width: 400px;
-        text-align: center;
-    }
     
-    .imagem-qr-code{
-        width: 400px;
+    .container-page{
+        margin-top: 5rem;    
         
-    }    
+    }
 
     h1{
         
-        font-size: 2rem;
+        font-size: 1.3rem;
         padding: 1rem;
         margin: 0;
         
@@ -82,7 +74,7 @@ p{
     
     p{
         
-        font-size: 1.5rem;
+        font-size: 1rem;
         padding: 1rem;
         margin: 0;
         
